@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google font: lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet" />
+
+    <!-- Font awesome CDN -->
+
+    <script
+      src="https://kit.fontawesome.com/3e6a4f7f52.js"
+      crossorigin="anonymous"></script>
+  </head>
+
+  <body class="font-lato bg-white">
+    <header class="container mx-auto">
+      <div class="justify-center lg:mx-32 lg:py-10">
+        <div
+          class="navbar bg-[#F85559] rounded-xl lg:rounded-full py-0 lg:py-5">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All fruits</a></li>
+              </ul>
+            </div>
+
+            <!-- Nav part-1 -->
+
+            <ul
+              class="menu menu-horizontal invisible lg:visible md:invisible px-1 text-white">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All fruits</a></li>
+            </ul>
+          </div>
+
+          <!-- nav part -2 -->
+          <div class="navbar-center visible lg:flex">
+            <img class="" src="/images/logo.png" alt="" />
+            <h3 class="btn btn-ghost lg:text-3xl text-white font-bold">
+              Fruit Burst
+            </h3>
+          </div>
+
+          <!-- nav part-3 -->
+          <div class="navbar-end me-5 invisible md:visible lg:visible">
+            <div class="bg-white rounded-full px-4">
+              <input
+                type="text"
+                class="bg-white rounded-full"
+                placeholder="Search" />
+              <a class="btn bg-white rounded-r-full text-black border-none"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header END -->
+
+    <main>
+      <section class="container mx-auto bg-white mt-10">
+        <div class="lg:mx-32">
+          <div class="carousel w-full">
+            <!-- slide 1 -->
+            <div
+              id="slide1"
+              class="carousel-item relative w-full text-center items-center justify-center bg-gradient-to-r from-neutral-800 to-stone-400 bg-opacity-25 rounded-lg">
+              <img
+                src="../images/banner1.png"
+                class="w-full mix-blend-overlay" />
+
+              <div class="text-white absolute">
+                <h1 class="text-[20px] lg:text-7xl font-extrabold">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p class="lg:text-xl font-medium my-2">
+                  We supply highly quality organic products
+                </p>
+                <button
+                  class="lg:text-xl btn bg-[#F85559] border-none text-white mt-5">
+                  <a href="">Shop Now</a>
+                </button>
+              </div>
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              id="slide2"
+              class="carousel-item relative w-full text-center items-center justify-center bg-gradient-to-r from-neutral-800 to-stone-400 bg-opacity-25 rounded-lg">
+              <img
+                src="../images/banner2.png"
+                class="w-full mix-blend-overlay" />
+
+              <div class="text-white absolute">
+                <h1 class="lg:text-7xl font-extrabold">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p class="lg:text-xl font-medium my-2">
+                  We supply highly quality organic products
+                </p>
+                <button
+                  class="lg:text-xl btn bg-[#F85559] border-none text-white mt-5">
+                  <a href="">Shop Now</a>
+                </button>
+              </div>
+
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              id="slide3"
+              class="carousel-item relative w-full text-center items-center justify-center bg-gradient-to-r from-neutral-800 to-stone-400 bg-opacity-25 rounded-lg">
+              <img
+                src="../images/banner3.png"
+                class="w-full mix-blend-overlay" />
+              <div class="text-white absolute">
+                <h1 class="lg:text-7xl font-extrabold">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p class="lg:text-xl font-medium my-2">
+                  We supply highly quality organic products
+                </p>
+                <button
+                  class="lg:text-xl btn bg-[#F85559] border-none text-white mt-5">
+                  <a href="">Shop Now</a>
+                </button>
+              </div>
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <!-- slide 4 -->
+
+            <div
+              id="slide4"
+              class="carousel-item relative w-full text-center items-center justify-center bg-gradient-to-r from-neutral-800 to-stone-400 bg-opacity-25 rounded-lg">
+              <img
+                src="../images/banner4.png"
+                class="w-full mix-blend-overlay" />
+              <div class="text-white absolute">
+                <h1 class="lg:text-7xl font-extrabold">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p class="lg:text-xl font-medium my-2">
+                  We supply highly quality organic products
+                </p>
+                <button
+                  class="lg:text-xl btn bg-[#F85559] border-none text-white mt-5">
+                  <a href="">Shop Now</a>
+                </button>
+              </div>
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Overlay Grid -->
+          <div
+            class="bg-white lg:mx-32 lg:relative -top-24 rounded-lg invisible md:visible lg:visible">
+            <div class="flex justify-center">
+              <div class="text-center p-5">
+                <img class="p-4" src="../images/fruit1.png" alt="" />
+                <p class="text-black font-medium my-1">Strawberry</p>
+              </div>
+              <div class="text-center p-5">
+                <img class="p-4" src="../images/fruit2.png" alt="" />
+                <p class="text-black font-medium my-1">Orange</p>
+              </div>
+              <div class="text-center p-5">
+                <img class="p-4" src="../images/fruit3.png" alt="" />
+                <p class="text-black font-medium my-1">Mango</p>
+              </div>
+              <div class="text-center p-5">
+                <img class="p-4" src="../images/fruit4.png" alt="" />
+                <p class="text-black font-medium my-1">Strawberry</p>
+              </div>
+              <div class="text-center p-5">
+                <img class="p-4" src="../images/fruit5.png" alt="" />
+                <p class="text-black font-medium my-1">Strawberry</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Deal Of the Day Section  -->
+      <section class="container mx-auto lg:py-10">
+        <div class="lg:mx-32 flex flex-col lg:flex-row justify-between">
+          <!-- Headline -->
+          <div class="lg:flex-1 text-center lg:text-start">
+            <h1 class="text-[20px] lg:text-5xl text-black font-extrabold mb-6">
+              Deal of the day
+            </h1>
+            <p class="text-[#121212] lg:me-24 px-8 lg:p-0">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+          </div>
+
+          <!-- Countdown -->
+          <div class="lg:flex-1">
+            <div
+              class="flex justify-center items-center lg:p-0 lg:justify-end lg:items-center mt-5 gap-5">
+              <div class="text-center">
+                <h1 class="text-[20px] lg:text-5xl text-black font-extrabold">
+                  29
+                </h1>
+                <p class="text-[#121212] font-medium mt-2">Days</p>
+              </div>
+              <div>
+                <p class="text-black font-thin text-center">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </p>
+              </div>
+              <div class="text-center">
+                <h1 class="text-[20px] lg:text-5xl text-black font-extrabold">
+                  15
+                </h1>
+                <p class="text-[#121212] font-medium mt-2">Hours</p>
+              </div>
+              <div>
+                <p class="text-black font-thin text-center">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </p>
+              </div>
+              <div class="text-center">
+                <h1 class="text-[20px] lg:text-5xl text-black font-extrabold">
+                  25
+                </h1>
+                <p class="text-[#121212] font-medium mt-2">Minutes</p>
+              </div>
+              <div>
+                <p class="text-black font-thin text-center">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </p>
+              </div>
+              <div class="text-center">
+                <h1 class="text-[20px] lg:text-5xl text-black font-extrabold">
+                  45
+                </h1>
+                <p class="text-[#121212] font-medium mt-2">Seconds</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Fruits with Ratings -->
+
+      <section class="container mx-auto">
+        <div class="lg:mx-32 lg:py-7">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card-1 -->
+
+            <div class="card bg-white shadow-xl border mx-2 lg:mx-0">
+              <figure class="px-10 pt-10">
+                <img
+                  src="../images/fruit6.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4 class="text-black text-xl font-bold">12.90$ - 18.85$</h4>
+                <p class="text-[#121212]">Apples</p>
+                <p>
+                  <i class="fa-solid fa-star text-[#F85559]"></i
+                  ><i class="fa-solid fa-star text-[#F85559]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                </p>
+
+                <div class="card-actions">
+                  <button
+                    class="btn text-xl text-[#F85559] bg-white border-none">
+                    Details
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="card bg-white shadow-xl border mx-2 lg:mx-0">
+              <figure class="px-10 pt-10">
+                <img
+                  src="../images/fruit7.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4 class="text-black text-xl font-bold">12.90$ - 18.85$</h4>
+                <p class="text-[#121212]">Orange</p>
+                <p>
+                  <i class="fa-solid fa-star text-[#F85559]"></i
+                  ><i class="fa-solid fa-star text-[#F85559]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                </p>
+
+                <div class="card-actions">
+                  <button
+                    class="btn text-xl text-[#F85559] bg-white border-none">
+                    Details
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="card bg-white shadow-xl border mx-2 lg:mx-0">
+              <figure class="px-10 pt-10">
+                <img
+                  src="../images/fruit8.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4 class="text-black text-xl font-bold">12.90$ - 18.85$</h4>
+                <p class="text-[#121212]">Red Dragon</p>
+                <p>
+                  <i class="fa-solid fa-star text-[#F85559]"></i
+                  ><i class="fa-solid fa-star text-[#F85559]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                </p>
+
+                <div class="card-actions">
+                  <button
+                    class="btn text-xl text-[#F85559] bg-white border-none">
+                    Details
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+
+            <div class="card bg-white shadow-xl border mx-2 lg:mx-0">
+              <figure class="px-10 pt-10">
+                <img
+                  src="../images/fruit9.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4 class="text-black text-xl font-bold">12.90$ - 18.85$</h4>
+                <p class="text-[#121212]">Banana</p>
+                <p>
+                  <i class="fa-solid fa-star text-[#F85559]"></i
+                  ><i class="fa-solid fa-star text-[#F85559]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i
+                  ><i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                </p>
+
+                <div class="card-actions">
+                  <button
+                    class="btn text-xl text-[#F85559] bg-white border-none">
+                    Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center py-10">
+            <button class="btn btn-primary bg-[#F85559] border-none">
+              Shop All
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Meet The Team Section -->
+
+      <section class="container mx-auto py-5">
+        <div class="lg:mx-32">
+          <div>
+            <div
+              class="card w-full bg-base-100 shadow-xl image-full rounded-lg h-full">
+              <figure>
+                <img src="../images/banner1.png" alt="Shoes" />
+              </figure>
+              <div class="card-body text-center">
+                <h2
+                  class="text-[20px] lg:text-5xl font-extrabold text-white lg:mt-24 lg:mb-5">
+                  Meet the team section
+                </h2>
+                <p class="text-white font-medium lg:mx-64">
+                  Contrary to popular belief, is not simply random text. It has
+                  roots in a piece of classical Latin literature from 45 BC,
+                  making it over 2000 years old.
+                </p>
+
+                <!-- Card with profile picture  -->
+
+                <div>
+                  <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:mx-32 gap-2">
+                    <!-- card 1  -->
+
+                    <div class="card bg-transparent">
+                      <figure class="px-10 pt-10">
+                        <img
+                          src="../images/member1.png"
+                          alt="Shoes"
+                          class="rounded-full p-6" />
+                      </figure>
+                      <div
+                        class="card-body items-center text-center text-white">
+                        <h2 class="text-xl font-bold">Awlad Hossain</h2>
+                        <p class="font-normal">Fruits Expert</p>
+                        <p class="font-medium text-white text-xs">
+                          <i
+                            class="fa-brands fa-facebook-f bg-red-400 p-1 ms-1 rounded-full"></i>
+                          <i
+                            class="fa-brands fa-twitter bg-red-400 p-1 ms-1 rounded-full"></i>
+                          <i
+                            class="fa-brands fa-linkedin-in bg-red-400 p-1 ms-1 rounded-full"></i>
+                        </p>
+                      </div>
+                    </div>
+                    <!-- card 2  -->
+
+                    <div class="card bg-transparent">
+                      <figure class="px-10 pt-10">
+                        <img
+                          src="../images/member2.png"
+                          alt="Shoes"
+                          class="rounded-full p-6" />
+                      </figure>
+                      <div
+                        class="card-body items-center text-center text-white">
+                        <h2 class="text-xl font-bold">Safia Chowdhury</h2>
+                        <p class="font-normal">Fruits Expert</p>
+                        <p class="font-medium text-white text-xs">
+                          <i
+                            class="fa-brands fa-facebook-f bg-red-400 p-1 ms-1 rounded-full"></i>
+                          <i
+                            class="fa-brands fa-twitter bg-red-400 p-1 ms-1 rounded-full"></i>
+                          <i
+                            class="fa-brands fa-linkedin-in bg-red-400 p-1 ms-1 rounded-full"></i>
+                        </p>
+                      </div>
+                    </div>
+                    <!-- card 3  -->
+
+                    <div class="card bg-transparent">
+                      <figure class="px-10 pt-10">
+                        <img
+                          src="../images/member3.png"
+                          alt="Shoes"
+                          class="rounded-full p-6" />
+                      </figure>
+                      <div
+                        class="card-body items-center text-center text-white">
+                        <h2 class="text-xl font-bold">Rokib Hossain</h2>
+                        <p class="font-normal">Fruits Expert</p>
+                        <p class="font-medium text-white text-xs">
+                          <i
+                            class="fa-brands fa-facebook-f bg-red-400 p-1 ms-1 rounded-full"></i>
+                          <i
+                            class="fa-brands fa-twitter bg-red-400 p-1 ms-1 rounded-full"></i>
+                          <i
+                            class="fa-brands fa-linkedin-in bg-red-400 p-1 ms-1 rounded-full"></i>
+                        </p>
+                      </div>
+                    </div>
+                    <!-- card 4  -->
+
+                    <div class="card bg-transparent">
+                      <figure class="px-10 pt-10">
+                        <img
+                          src="../images/member4.png"
+                          alt="Shoes"
+                          class="rounded-full p-6" />
+                      </figure>
+                      <div
+                        class="card-body items-center text-center text-white">
+                        <h2 class="text-xl font-bold">Chaity</h2>
+                        <p class="font-normal">Fruits Expert</p>
+                        <p class="font-medium text-white text-xs">
+                          <i
+                            class="fa-brands fa-facebook-f bg-red-400 p-1 ms-1 rounded-full"></i>
+                          <i
+                            class="fa-brands fa-twitter bg-red-400 p-1 ms-1 rounded-full"></i>
+                          <i
+                            class="fa-brands fa-linkedin-in bg-red-400 p-1 ms-1 rounded-full"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us Section  -->
+
+      <section class="container mx-auto py-5 lg:py-28">
+        <div class="lg:mx-32 text-black text-center">
+          <h1 class="text-[20px] lg:text-5xl font-bold lg:font-extrabold mb-5">
+            Why Choose Us
+          </h1>
+          <p class="mx-5 lg:mx-64 mb-12 px-5 md:px-0 lg:px-0">
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical Latin literature from 45 BC, making it over
+            2000 years old.
+          </p>
+        </div>
+
+        <div
+          class="lg:mx-32 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-12">
+          <!-- Side 1  -->
+          <div>
+            <div
+              class="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-5">
+              <div class="flex justify-start items-center">
+                <img class="p-2" src="../images/Group 46.png" alt="" />
+              </div>
+              <div
+                class="text-black lg:text-start flex flex-col md:flex-col lg:flex-col justify-center md:justify-start lg:justify-start lg:items-start md:items-start items-center">
+                <h5 class="text-2xl font-extrabold">Dedicated Team</h5>
+                <div class="flex lg:justify-start my-1">
+                  <hr class="font-light w-20 h-1 bg-black" />
+                </div>
+                <p
+                  class="text-center md:text-start lg:text-start px-5 md:px-0 lg:px-0">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-5 py-12">
+              <div class="flex justify-start items-center">
+                <img class="p-2" src="../images/Group 47.png" alt="" />
+              </div>
+              <div
+                class="text-black lg:text-start flex flex-col md:flex-col lg:flex-col justify-center md:justify-start lg:justify-start lg:items-start md:items-start items-center">
+                <h5 class="text-2xl font-extrabold">Fresh is Best</h5>
+                <div class="flex lg:justify-start my-1">
+                  <hr class="font-light w-20 h-1 bg-black" />
+                </div>
+                <p
+                  class="text-center md:text-start lg:text-start px-5 md:px-0 lg:px-0">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-5">
+              <div class="flex justify-start items-center">
+                <img class="p-2" src="../images/Group 48.png" alt="" />
+              </div>
+              <div
+                class="text-black lg:text-start flex flex-col md:flex-col lg:flex-col justify-center md:justify-start lg:justify-start lg:items-start md:items-start items-center">
+                <h5 class="text-2xl font-extrabold">Gift Certificates</h5>
+                <div class="flex lg:justify-start my-1">
+                  <hr class="font-light w-20 h-1 bg-black" />
+                </div>
+                <p
+                  class="text-center md:text-start lg:text-start px-5 md:px-0 lg:px-0">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Side 2  -->
+          <div class="flex justify-center items-center">
+            <img
+              class="rounded-xl lg:h-[405px] lg:w-[405px] p-4 lg:p-0"
+              src="../images/whychoose1.png"
+              alt="" />
+          </div>
+
+          <!-- Side 3  -->
+          <div class="ms-0 md:ms-8 lg:ms-0">
+            <div class="flex flex-col md:flex-row lg:flex-row gap-5">
+              <div
+                class="text-black text-center md:text-start lg:text-end order-last md:order-last lg:order-none">
+                <h5 class="text-2xl font-extrabold">Integrated Supplier</h5>
+                <div
+                  class="flex justify-center md:justify-start lg:justify-end my-1">
+                  <hr class="font-light w-20 h-1 bg-black" />
+                </div>
+                <p class="px-5 md:px-0 lg:px-0">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+              <div
+                class="flex justify-center md:justify-end lg:justify-end items-center">
+                <img class="" src="../images/Group 49.png" alt="" />
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row lg:flex-row gap-5 py-12">
+              <div
+                class="text-black text-center md:text-start lg:text-end order-last md:order-last lg:order-none">
+                <h5 class="text-2xl font-extrabold">Sustainable Practice</h5>
+                <div
+                  class="flex justify-center md:justify-start lg:justify-end my-1">
+                  <hr class="font-light w-20 h-1 bg-black" />
+                </div>
+                <p class="px-5 md:px-0 lg:px-0">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+              <div
+                class="flex justify-center md:justify-end lg:justify-end items-center">
+                <img class="" src="../images/Group 50.png" alt="" />
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row lg:flex-row gap-5">
+              <div
+                class="text-black text-center md:text-start lg:text-end order-last md:order-last lg:order-none">
+                <h5 class="text-2xl font-extrabold">The Benefits Only</h5>
+                <div
+                  class="flex justify-center md:justify-start lg:justify-end my-1">
+                  <hr class="font-light w-20 h-1 bg-black" />
+                </div>
+                <p class="px-5 md:px-0 lg:px-0">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+              <div
+                class="flex justify-center md:justify-end lg:justify-end items-center">
+                <img class="" src="../images/Group 51.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-black py-36">
+      <div class="text-white">
+        <div class="flex gap-4 justify-center items-center">
+          <img src="../images/logo.png" alt="" />
+          <h1 class="text-2xl lg:text-4xl font-extrabold">Fruit Brust</h1>
+        </div>
+        <div
+          class="flex flex-wrap gap-10 md:gap-14 lg:gap-14 justify-center items-center py-5 md:py-7 lg:py-12 px-2">
+          <p><a href="">Home</a></p>
+          <p><a href="">About Us</a></p>
+          <p><a href="">Shop</a></p>
+          <p><a href="">All fruits</a></p>
+          <p><a href="">Support</a></p>
+          <p><a href="">My Account</a></p>
+        </div>
+        <div class="flex flex-wrap gap-5 justify-center items-center">
+          <img src="../images/communication.png" alt="" />
+          <img src="../images/instagram (1).png" alt="" />
+          <img src="../images/twitter.png" alt="" />
+          <img src="../images/video.png" alt="" />
+          <img src="../images/linkedin.png" alt="" />
+          <img src="../images/apple (1).png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
